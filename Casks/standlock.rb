@@ -1,8 +1,8 @@
 cask "standlock" do
-  version "0.1.4"
-  sha256 "15091f3a487c7df047e85966ed8b0de82840d0ec125af681774515e0a598720f"
+  version "0.2.0"
+  sha256 "166e8d1b1bd87536361c9cbc869718da04092c53a71cd8a03d2e234fd2fc7230"
 
-  url "https://github.com/yagizdo/StandLock/releases/download/v#{version}/StandLock-#{version}.zip",
+  url "https://github.com/yagizdo/StandLock/releases/download/v#{version}/StandLock-#{version}.dmg",
       verified: "github.com/yagizdo/StandLock/"
   name "StandLock"
   desc "Stand reminder and break screen for macOS"
