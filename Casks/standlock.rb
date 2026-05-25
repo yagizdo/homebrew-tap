@@ -1,6 +1,6 @@
 cask "standlock" do
-  version "0.2.0"
-  sha256 "166e8d1b1bd87536361c9cbc869718da04092c53a71cd8a03d2e234fd2fc7230"
+  version "0.2.1"
+  sha256 "724002e3156b74552958fb47667dd76302c59b123d3b9afafd1ccb319c76576f"
 
   url "https://github.com/yagizdo/StandLock/releases/download/v#{version}/StandLock-#{version}.dmg",
       verified: "github.com/yagizdo/StandLock/"
