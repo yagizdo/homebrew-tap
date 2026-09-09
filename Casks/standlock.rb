@@ -1,6 +1,6 @@
 cask "standlock" do
-  version "0.3.1"
-  sha256 "eff9ee9d7f04bf40b4013ab5521e9f1939739879180fe366ce6225432e41dd4e"
+  version "0.4.0"
+  sha256 "5ec76a568bae1f681420d99ce91c280663655fc7954c80edaabc5e51f3edffc2"
 
   url "https://github.com/yagizdo/StandLock/releases/download/v#{version}/StandLock-#{version}.dmg",
       verified: "github.com/yagizdo/StandLock/"
@@ -8,7 +8,7 @@ cask "standlock" do
   desc "Stand reminder and break screen for macOS"
   homepage "https://standlock.app"
 
-  depends_on macos: :ventura
+  depends_on macos: ">= :ventura"
 
   app "StandLock.app"
 
